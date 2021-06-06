@@ -2,6 +2,7 @@ require 'dashing'
 
 configure do
   set :auth_token, 'YOUR_AUTH_TOKEN'
+  set :default_dashboard, 'rpi'
   set :template_languages, %i[html erb]
   set :show_exceptions, false
 end
